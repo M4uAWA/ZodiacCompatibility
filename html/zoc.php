@@ -91,3 +91,4 @@ echo "<center><div class = \"titulo\">Su compatibilidad es:</h><br/><br/></cente
 echo "<center><img src = \"../img/zodi/{$sig1}.png\"/>"."<img src = \"../img/zodi/{$rel}.png\"/>" . "<img src = \"../img/zodi/{$sig2}.png\"/></center>";
 echo "<br/><br/>";
 echo "<center><a href=\"http://localhost/219704734/html/signosZodiacales.html\"><button class=\"return\">Probar otras fechas</button></a></center>";
+?>
