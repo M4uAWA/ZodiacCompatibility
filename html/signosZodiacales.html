@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title> Compatibilidad Zodiacal</title>
+	<link rel="stylesheet" href="../estilo/estiloz.css" />
+	<script type="text/javascript" src="..\js\jquery-3.7.1.min.js"></script>
+</head>
+
+<body background="..\img\heart.jpg" ;>
+	<center>
+		<form action="zoc.php" method="post" id="signos">
+			<br />
+			<br />
+			<fieldset>
+				<h1>Compatibilidad Zodiacal</h1>
+			</fieldset>
+			<br />
+			<br />
+			<fieldset>
+				<label for="fecha1">Fecha de nacimiento de la primera persona</label>
+				<br />
+				<br />
+				<input type="date" name="fecha1" id="fecha1" />
+			</fieldset>
+			<br />
+			<fieldset>
+				<label for="fecha2">Fecha de nacimiento de la segunda persona</label>
+				<br />
+				<br />
+				<input type="date" name="fecha2" id="fecha2" />
+			</fieldset>
+			<br />
+			<fieldset>
+				<input type="submit" value="CALCULAR" id="envio" />
+			</fieldset>
+		</form>
+	</center>
+</body>
+<script>
+	$(document).ready(function () {
+		$('#signos').submit(function (e) {
+			const valDate1 = document.getElementById('fecha1');
+			const valDate2 = document.getElementById('fecha2');
+			if (!valDate1.value || !valDate2.value) {
+				e.preventDefault();
+				alert("Fecha invalida, por favor ingrese una fecha valida para continuar")
+			}
+		});
+	});
+
+</script>
+
+</html>

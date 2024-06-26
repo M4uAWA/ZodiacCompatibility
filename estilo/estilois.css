@@ -1,0 +1,89 @@
+*{
+	Font-family:corbel;
+	font-size: 14px;
+}
+fieldset{
+	border: 1px solid: #DEDEDE;
+	color: #F8F8F8;
+	width: 324px;
+	}
+
+table{
+	width: 600px;
+}
+
+#foto{
+	height: 592px;
+	width: 387px;
+}
+
+#logotipo{
+	width: 200px;
+}
+
+#face{
+	width: 290px;
+}
+
+#cuadroapp{
+	border-style: none;
+	padding: 12px;
+}
+
+#app{
+	width: 254px;
+}
+
+#relleno{
+	padding: 0px 12px;
+}
+
+#espacio{
+	padding: 8px 0px;
+}
+
+#espacio1{
+	padding: 6px 0px;
+}
+
+#cuadroinsta{
+	height: 380px;
+}
+
+#olvida{
+	padding: 5px;
+	font-size: 13px;
+}
+
+#ncuenta{
+	font-size: 15px;
+}
+
+#cuadroder{
+	align: left;
+}
+#cuadroiz{
+	align: right;
+}
+
+
+input{
+	background-color: #F8F8F8 ;
+	width: 264px;
+	height: 34px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+	border-style: solid;
+	border-radius: 4px;
+}
+
+.login{
+	font-weight: bold;
+	background-color: #3BADFB ;
+	border-radius: 8px;
+	color: #FFFFFF;
+	height :35px;
+	width: 270px;
+}
+
+
